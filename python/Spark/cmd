@@ -1,0 +1,1 @@
+gcloud dataproc jobs submit pyspark  word_count.py --cluster=hadoop

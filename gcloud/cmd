@@ -1,0 +1,4 @@
+ $ gcloud dataproc jobs submit pig --cluster my_cluster \
+      --file my_queries.pig
+
+      

@@ -1,0 +1,12 @@
+ssh-keygen -t rsa -C "kolisachint@gmail.com" -b 4096
+git clone git@gitlab.com:kolisachint/HadoopWithPython.git
+curl https://bootstrap.pypa.io/get-pip.py -o get-pip.py
+python --user get-pip.py
+sudo su
+pip install --user pyspark
+hadoop fs -mkdir /testdir
+hadoop fs -put passwd .
+hadoop fs -get user_id.out
+
+
+

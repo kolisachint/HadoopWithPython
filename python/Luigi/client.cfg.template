@@ -1,0 +1,5 @@
+[hadoop]
+streaming-jar: /usr/lib/hadoop-xyz/hadoop-streaming-xyz-123.jar
+
+[pig]
+home: /usr/lib/pig
